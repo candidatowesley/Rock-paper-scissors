@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+          <h1>Rock Paper Scissors</h1>
+        </header>
+            <p id="Select">Choose, Rock Paper or Scissors?</p>
+            <div class="choice">
+                <div class="select-choice" id="rock">
+                  <img class="img_choice" src="./assets/rock.png" alt="Selection - rock">
+                </div>
+                <div class="select-choice" id="paper">
+                  <img class="img_choice" src="./assets/paper.png" alt="Selection - paper">
+                </div>
+                <div class="select-choice" id="scissors">
+                  <img class="img_choice" src="./assets/scissors.png" alt="Selection - scissors">
+                </div>
+                <div class="result"></div>
+                    <p id="message"></p>
+                    <p id="win_lose_tie"></p>
+                <div class="scores">
+                    <p class="total-score">Your score: <span id="user-score">0</span></p>
+                    <p class="total-score">Computer's score: <span id="computer-score">0</span></p>
+                    <button id="reset-button">Reset score</button>
+                  </div>
+              </div>
+    </div>   
+    <script src="rps.js"></script>
+</body>
+</html>
